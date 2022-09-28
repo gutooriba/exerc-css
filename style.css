@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background: #333;
+  color: white;
+}
+
+table {
+  width: 100%;
+  height: 100vh;
+}
+
+tr,
+th,
+td {
+  /* border: 3px solid white; */
+  border-collapse: collapse;
+  border: 0px;
+}
+
+.header {
+  background: rgba(123, 42, 52, 0.5);
+  height: 5rem;
+  text-align: left;
+  padding-left: 2rem;
+  font-size: 3rem;
+}
+.lateral {
+  width: 30%;
+  background: rgba(0, 52, 234, 0.3);
+  padding: 2rem;
+  text-align: center;
+}
+
+.conteudo {
+  width: 70%;
+}
+
+ul {
+  list-style: none;
+  margin-top: 2rem;
+}
+.lateral a {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 4rem;
+}
+
+.lateral li {
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.foto_perfil {
+  width: 100px;
+  height: 100px;
+  background: url("./perfil.jfif") center;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+
+section {
+  height: 100%;
+  padding: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
